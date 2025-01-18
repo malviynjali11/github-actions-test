@@ -1,0 +1,15 @@
+name: Example GitHub Action
+
+on:
+  push:
+    branches:
+      - main  # Trigger on push to the main branch
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: 23f3004202@ds.study.iitm.ac.in
+        run: echo "Hello, GitHub Actions!"
